@@ -1,4 +1,4 @@
-// 연필개수 
+// 연필개수
 const pencilDas = (persons) => {
     if (persons === 0) return;
     const oneDas = 12;
