@@ -12,3 +12,4 @@ function answer(arr) {
 
 const min = answer(arr);
 console.log("최솟값",min)
+
