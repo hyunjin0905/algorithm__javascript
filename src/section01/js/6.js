@@ -1,7 +1,6 @@
 const num = [12, 77, 38, 41, 53, 92, 85]
-const oddNum = [];
-function answer(data) {
 
+function answer(data) {
     let min = Number.MAX_SAFE_INTEGER;
     let sum = 0;
     for (let i = 0; i < data.length; i++) {
@@ -10,9 +9,7 @@ function answer(data) {
             if (data[i] < min) min = data[i];
         }
     }
-    return { min: min, sum: sum }
-
-
+    return {min: min, sum: sum}
 }
 
 const data = answer(num)

@@ -20,7 +20,6 @@ const solution2 = (numList) => {
     }
     answer = min;
     return answer;
-
 }
 const data = [5, 3, 7, 11, 2, 15, 17];
 const test7 = searchMinValue(data);
@@ -35,7 +34,6 @@ const solution3 = (arr) => {
     // arr[0], arr[1] , arr[2]  ...arr[6] 까지 펼쳐준다
     // 전개 연산자 안쓰고
     console.log(Math.max.apply(null, arr));
-
     return answer;
 }
 

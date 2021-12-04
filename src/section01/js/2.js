@@ -1,7 +1,7 @@
 // 삼각형 판별하기
 
-function solution (a, b, c) {
-    let answer= "YES", max;
+function solution(a, b, c) {
+    let answer = "YES", max;
     let sum = a + b + c;
     if (a > b) max = a;
     else max = b;
