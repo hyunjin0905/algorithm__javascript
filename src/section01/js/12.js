@@ -29,3 +29,10 @@ function solution(str) {
 }
 
 console.log(solution("ItisTimeToStudyadkfks"))
+
+function solution2(str) {
+  const data = str.toUpperCase()
+  return data;
+}
+
+console.log(solution2("ItisTimeToStudyadkfks"))
