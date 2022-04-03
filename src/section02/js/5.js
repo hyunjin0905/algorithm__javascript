@@ -8,4 +8,3 @@ const answer = (data) => {
 }
 
 
-answer([87, 89, 92, 100, 76])
